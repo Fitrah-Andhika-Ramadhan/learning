@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header styles */
+header {
+  background-color: #4CAF50;
+  padding: 1rem;
+  width: 85%; /* Full width */
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 2rem; /* 2rem bottom margin */
+}
+
+/* Main app container */
+.App {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto; /* 2rem top and bottom margin, auto on sides */
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  width: 80%;
+  max-width: 800px; /* Maximum width for larger screens */
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; /* Bottom margin for spacing */
+}
+
+/* Input and textarea styles */
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Button styles */
+button {
+  padding: 0.75rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Hover background color transition */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive design */
+@media (min-width: 576px) {
+  /* Styles for small devices (landscape phones, 576px and up) */
+  form {
+    padding: 2rem; /* Increased padding */
+  }
+}
+
+@media (min-width: 768px) {
+  /* Styles for medium devices (tablets, 768px and up) */
+  form {
+    padding: 1.5rem; /* Back to default padding */
+  }
+}
+
+@media (min-width: 992px) {
+  /* Styles for large devices (desktops, 992px and up) */
+  form {
+    padding: 1.75rem; /* Slightly increased padding */
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Styles for extra large devices (large desktops, 1200px and up) */
+  form {
+    padding: 2rem; /* Maximum padding for large screens */
+  }
+}
+
+
+
